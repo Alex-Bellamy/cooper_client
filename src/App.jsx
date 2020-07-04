@@ -3,7 +3,8 @@ import DisplayCooperResult from "./components/DisplayCooperResult";
 import InputFields from "./components/InputFields";
 import LoginForm from "./components/LoginForm";
 import { authenticate } from './modules/auth';
-import DisplayPerformanceData from "./components/DisplayPerformanceData"
+import DisplayPerformanceData from "./components/DisplayPerformanceData";
+import IntroToTest from './components/IntroToTest'
 
 class App extends Component {
   state = {
@@ -79,6 +80,9 @@ class App extends Component {
 
     return (
       <>
+      <div>
+        <IntroToTest />
+      </div>
         <InputFields onChangeHandler={this.onChangeHandler} />
         {renderLogin}
         <DisplayCooperResult
