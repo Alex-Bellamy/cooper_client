@@ -69,22 +69,26 @@ class App extends Component {
                 updateIndex={this.state.updateIndex}
                 indexUpdated={() => this.setState({ updateIndex: false })}
               />
-              <button class="ui button" onClick={() => this.setState({ renderIndex: false })}>Hide past entries</button>
+              <Button color="green" onClick={() => this.setState({ renderIndex: false })}>Hide past entries</Button>
             </>
           )
         } else {
         performanceDataIndex = (
-          <button class="ui button" id="show-index" onClick={() => this.setState({ renderIndex: true })}>Show past entries</button>
+          <Button color="green" id="show-index" onClick={() => this.setState({ renderIndex: true })}>Show past entries</Button>
         )
       }  
     }
 
     return (
       <>
+      <br/> <br/>
       <Container>
       <div>
         <IntroToTest />
       </div>
+      </Container> 
+      <br/>
+      <Container>
         <InputFields onChangeHandler={this.onChangeHandler} />
         {renderLogin}
         <DisplayCooperResult
