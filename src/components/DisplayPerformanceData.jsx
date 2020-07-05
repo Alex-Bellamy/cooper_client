@@ -42,13 +42,15 @@ class DisplayPerformanceData extends Component {
         labels: labels,
         datasets: [{
           data: distances,
-          label: "Saved distance"
+          label: "Previous Results",
+          borderColor: "#99945D",
+          backgroundColor: "#E0D234"
         }] 
       }
 
       dataIndex = (
         <div>
-          <Line data={data} />
+          <Line height={25} width={100} data={data} />
         </div>
       )
     }
