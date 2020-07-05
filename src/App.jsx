@@ -82,10 +82,8 @@ class App extends Component {
     return (
       <>
       <br/> <br/>
-      <Container>
-      <div>
+      <Container textAlign='left'>
         <IntroToTest />
-      </div>
       </Container> 
       <br/>
       <Container>

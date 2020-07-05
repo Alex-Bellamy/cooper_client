@@ -5,16 +5,14 @@ const LoginForm = ({ submitFormHandler }) => {
     return (
         <form onSubmit ={submitFormHandler} id="login-form">
             <Input>
-            <label>Email</label>
-            <input name="email" type="email" id="email"></input>
+            <input name="email" type="email" id="email" placeholder="Email"></input>
             </Input>
 
             <Input>
-            <label>Password</label>
-            <input name="password" type="password" id="password"></input>
+            <input name="password" type="password" id="password" placeholder="Password"></input>
             </Input>
 
-            <button id="submit">Submit</button>
+            <button class="ui button" id="submit">Submit</button>
         </form>
     );
 };
