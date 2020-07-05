@@ -5,6 +5,7 @@ import LoginForm from "./components/LoginForm";
 import { authenticate } from './modules/auth';
 import DisplayPerformanceData from "./components/DisplayPerformanceData";
 import IntroToTest from './components/IntroToTest'
+import { Container } from "semantic-ui-react";
 
 class App extends Component {
   state = {
@@ -80,6 +81,7 @@ class App extends Component {
 
     return (
       <>
+      <Container>
       <div>
         <IntroToTest />
       </div>
@@ -94,6 +96,7 @@ class App extends Component {
         entryHandler={() => this.setState({ entrySaved: true, updateIndex: true })}
 />
 {performanceDataIndex}
+      </Container>
       </>
     );
   }
