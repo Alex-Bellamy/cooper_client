@@ -4,7 +4,6 @@ import "./index.css"
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import axios from "axios";
-import 'semantic-ui-css/semantic.min.css'
 
 axios.defaults.baseURL = "https://cooper-challenge-api.herokuapp.com/api/v1";
 
