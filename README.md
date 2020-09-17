@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Craft Academy - Cooper Client
+[Deployed at Netlify] <br />
+[![Netlify Status]
 
-## Available Scripts
+## Authors
+[Alex Bellamy](https://github.com/Alex-Bellamy), [Odeane Croney](https://github.com/Odeane), [Sima Boreiri](https://github.com/Cma-B) <br />
 
-In the project directory, you can run:
+## The challenge
+A client requests that we build a fitness tracking app using a specific test called the Cooper Test (aka The 12-minute run).
 
-### `yarn start`
+The test is still used today as a field test for determining aerobic fitness and one of basic fitness tests used by the military. It is also used by many coaches and trainers to determine cardiovascular fitness and track fitness over time. This simple test also allows you to compare your cardiovascular endurance with others of your age and gender.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Scope 
+- Build a software solution that will make it possible not to only make the calculation but to record the data over time. 
+- Another requirement is that the app should have functionality that presents historical data of tests if a user has saved any historical data.
+- Ruby on Rails framework (back-end/API) and the React (client).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Skills practised
+- Test Driven Development and Behavior Driven Design or Acceptance - Unit Test cycle
+- Testing API endpoints with RSpec using request specs
+- Learning about CORS
+- Authenticating users from a React app
+- Make a post request to an API from a client
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech and packages
 
-### `yarn build`
+## Setup
+You can fork this repo to your own GitHub account or clone it directly to your local drive. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install all packages by running the command:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+``` $ yarn ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run the app in development mode:
 
-### `yarn eject`
+``` $ yarn start ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Start Cypress and run the tests:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+``` $ yarn cy:open ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## License
+This app is open source software [licensed as MIT](https://mit-license.org/).
